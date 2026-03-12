@@ -8,7 +8,7 @@
     "dev": "nodemon server.js",
     "client": "cd client && npm start",
     "install-client": "cd client && npm install",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm install && npm run build"
   },
   "keywords": ["flight", "booking", "travel", "nodejs", "express", "mongodb", "react"],
   "author": "Your Name",
